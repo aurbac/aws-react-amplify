@@ -65,7 +65,6 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.superfences
   - pymdownx.tilde
-  - pyembed.markdown
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.tasklist:
