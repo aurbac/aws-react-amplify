@@ -2,7 +2,7 @@
 
 Hello, this is a self-paced workshop to deploy a React application using AWS Amplify.
 
-![Deploying a React Application using AWS Amplify](images/todos-app.png)
+![Deploying a React Application using AWS Amplify](docs/images/todos-app.png)
 
 See the diagram below for a depiction of the complete architecture.
 
