@@ -225,7 +225,7 @@ function ItemTodo(props) {
 
 export default ItemTodo;
 ```
-2.3\. Update the contents of **src/components/itemTodo.js** with the following.
+2.3\. Update the contents of **src/App.js** with the following.
 
 ``` javascript hl_lines="1 11 23 24 25 26 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50"
 import React, { useEffect } from "react";
