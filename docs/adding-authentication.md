@@ -77,7 +77,7 @@ amplify add auth
 
  What attributes are required for signing up? **Email**
 
- Do you want to enable any of the following capabilities? **Email Verification Link with Redirect**
+ Do you want to enable any of the following capabilities? **Email Verification Link with Redirect** (Tap spacebar to checkbox select)
 
 ? Enter the URL that your users will be redirected to upon account confirmation: **https://aws.amazon.com/**
 
