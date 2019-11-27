@@ -38,8 +38,6 @@
 
 ## 3. Create a Cloud9 instance for development
 
-[!embed?max_width=1200](https://www.youtube.com/watch?v=JDHZOGMMkj8)
-
 3.1\. Open the AWS Cloud9 console at https://console.aws.amazon.com/cloud9/.
 
 3.2\. Click on **Create environment**.
