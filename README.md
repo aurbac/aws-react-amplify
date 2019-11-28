@@ -1,8 +1,6 @@
 # Deploying a React Application using AWS Amplify
 
-Hello, this is a self-paced workshop to deploy a React application using AWS Amplify.
-
-![Deploying a React Application using AWS Amplify](docs/images/todos-app.png)
+Hello, this is a self-paced workshop to deploy a React application that allows users to post "To Do's" with or without pictures. With will use AWS Amplify library to authenticate users with Amazon Cognito, add analytics with Amazon Pinpoint, AWS AppSync to quickly deploy a GraphQL API that saves data in Amazon DynamoDB, manage pictures in Amazon S3 and adding artificial intelligence services such as Amazon Transcribe and Amazon Polly.
 
 See the diagram below for a depiction of the complete architecture.
 
@@ -28,3 +26,4 @@ You must complete the following modules in **US East (N. Virginia)** region in o
 - [Creating a GraphQL API](docs/adding-api.md "Creating a GraphQL API")
 - [Adding Storage](docs/adding-storage.md "Adding Storage")
 - [Add Translate Text and Text to Speech](docs/adding-predictions.md "Add Translate Text and Text to Speech")
+- [Adding Hosting](docs/adding-hosting.md "Adding Hosting")

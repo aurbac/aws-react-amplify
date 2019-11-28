@@ -29,6 +29,7 @@ nav:
     - Creating a GraphQL API: adding-api.md
     - Adding Storage: adding-storage.md
     - Add Translate Text and Text to Speech: adding-predictions.md
+    - Adding Hosting: adding-hosting.md
 
 theme:
   name: 'material'

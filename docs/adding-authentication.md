@@ -93,11 +93,13 @@ Please edit the file in your editor: **/home/ec2-user/environment/react-my-todos
 
 ? Press enter to continue Selected  editor vscode was not found in your machine. Please manually edit the file created at /home/ec2-user/environment/react-my-todos/amplify/backend/function/reactmytodos1c127207CustomMessage/src/verification-link.js
 
-? Press enter to continue 
+? **Press enter to continue **
+
+2.2\. Once you finish the settings you can open the **verification-link** file to review the settings by clicking the URL file and **Open**.
 
 ![Amplify add auth](images/amplify-add-auth.png)
 
-2.2\. Push to create these changes in the cloud.
+2.3\. Push to create these changes in the cloud.
 
 ``` bash
 amplify push

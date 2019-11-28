@@ -30,6 +30,12 @@ Successfully added resource S3Triggeraa668107 locally
 
 ? Do you want to edit the local S3Triggeraa668107 lambda function now? **Yes**
 
+Please edit the file in your editor: /home/ec2-user/environment/react-my-todos/amplify/backend/function/S3Triggerff25f09f/src/index.js
+
+? Press enter to continue Selected  editor vscode was not found in your machine. Please manually edit the file created at /home/ec2-user/environment/react-my-todos/amplify/backend/function/S3Triggerff25f09f/src/index.js
+
+? **Press enter to continue**
+
 ![Amplify add storage](images/amplify-add-storage.png)
 
 1.2\. Push to create these changes in the cloud.

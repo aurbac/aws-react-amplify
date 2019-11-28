@@ -30,7 +30,7 @@ Please edit the file in your editor: **/home/ec2-user/environment/react-my-todos
 
 ? Press enter to continue Selected  editor vscode was not found in your machine. Please manually edit the file created at /home/ec2-user/environment/react-my-todos/amplify/backend/api/todos/schema.graphql
 
-? Press enter to continue 
+? **Press enter to continue **
 
 1.2\. Manually edit the file created, you can mouse-over the file name in the terminal, click it, and select **Open**.
 
@@ -136,6 +136,10 @@ query listTodos{
 }
 ```
 ![Run Query](images/appsync-run-query.png)
+
+2.6\. Open the Amazon DynamoDB console at https://console.aws.amazon.com/dynamodb/, in **Tables** section, select your table and explore the **Items** inserted.
+
+![DynamoDB Table](images/dynamodb-table.png)
 
 ## 3. Configure React application to use the GraphQL API
 
