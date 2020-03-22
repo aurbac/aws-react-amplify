@@ -76,7 +76,7 @@ GraphQL schema compiled successfully.
 
 ## 2. Trying out some mutations and queries
 
-2.1\. Open the AWS AppSync console at https://console.aws.amazon.com/appsync/ and click on **todos-dev** API.
+2.1\. Open the AWS AppSync console at https://console.aws.amazon.com/appsync/ and click on **todos-prod** API.
 
 ![Appsync apis](images/appsync-apis.png)
 
@@ -87,11 +87,11 @@ GraphQL schema compiled successfully.
 
 ![Appsync queries](images/appsync-queries.png)
 
-2.3\. Paste the value into ClientId, enter your credentials and click **Login**.
+2.3\. Paste the value into **ClientId**, enter **your credentials for the user you created in the react application** and click **Login**.
 
 ![Appsync login](images/appsync-login.png)
 
-2.4\. Copy/pasting the following, replace with your **username** and try by pressing the orange **play** button to execute the mutations one by one.
+2.4\. Copy/pasting the following, replace with your **username** and try by pressing the orange **play** button to execute the mutations **one by one**.
 
 ```
 mutation createTodo1 {
@@ -589,4 +589,12 @@ function EditTodo(props) {
 export default EditTodo;
 ```
 
-3.4\. Go back to your application running, now you can retrieve, create, edit and delete a todos from the DynamoDB table.
+3.4\. **Adding**, **committing**, and **pushing** files to the CodeCommit repository.
+
+``` bash
+git add .
+git commit -m "API added"
+git push origin master
+```
+
+3.5\. Go back to your application running, now you can retrieve, create, edit and delete a todos from the DynamoDB table.

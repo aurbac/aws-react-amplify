@@ -25,7 +25,7 @@ amplify init
 
 ? Enter a name for the project **react-my-todos**
 
-? Enter a name for the environment **dev**
+? Enter a name for the environment **prod**
 
 ? Choose your default editor: **Visual Studio Code**
 
@@ -172,7 +172,15 @@ function App() {
 export default withAuthenticator(App, {includeGreetings: true});
 ```
 
-3.2\. Go back to your application running and create an account in the app by providing a username, password, and a valid email address (to receive a confirmation code at).
+3.2\. **Adding**, **committing**, and **pushing** files to the CodeCommit repository.
+
+``` bash
+git add .
+git commit -m "Authentication added"
+git push origin master
+```
+
+3.3\. Go back to your application running and create an account in the app by providing a username, password, and a valid email address (to receive a confirmation code at).
 
 ![React Auth](images/react-auth.png)
 
@@ -182,8 +190,8 @@ export default withAuthenticator(App, {includeGreetings: true});
 * Imported the withAuthenticator higher order component from aws-amplify-react
 * Wrapped the App component using withAuthenticator
 
-3.3\. Check your email. You should have received a confirmation link and after the validation you should then be able to log in with the username and password you entered during sign up.
+3.4\. Check your email. You should have received a confirmation link and after the validation you should then be able to log in with the username and password you entered during sign up.
 
-3.4\. Once you sign in, the form disappears and you can see our App component rendered below a header bar that contains your username and a **Sign Out** button.
+3.5\. Once you sign in, the form disappears and you can see our App component rendered below a header bar that contains your username and a **Sign Out** button.
 
 ![React sign in](images/react-sign-in.png)

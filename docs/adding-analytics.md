@@ -10,6 +10,8 @@ Now that we have authenticated users, let’s add analytics that enables you to 
 amplify add analytics
 ```
 
+? Select an Analytics provider **Amazon Pinpoint**
+
 ? Provide your pinpoint resource name: **todos**
 
 Adding analytics would add the Auth category to the project if not already added.
@@ -306,8 +308,26 @@ function App() {
 export default withAuthenticator(App, {includeGreetings: true});
 ```
 
-2.4\. Go back to your application running and navigate between pages.
+2.4\. **Adding**, **committing**, and **pushing** files to the CodeCommit repository.
 
-2.5\. To see the results visit the Amazon Pinpoint console https://console.aws.amazon.com/pinpoint/.
+``` bash
+git add .
+git commit -m "Analytics added"
+git push origin master
+```
+
+2.5\. Go back to your application running and navigate between pages.
+
+2.6\. To see the results open the Amazon Pinpoint console at https://console.aws.amazon.com/pinpoint/.
+
+2.7\. On the **All projects** page, choose the project **todos-prod**.
+
+2.8\. In the navigation pane, under **Analytics**, choose **Events**.
+
+2.9\. Expand the **Filters** section, choose **More information**, and then choose **Enable filters**.
+
+![Pinpoint events](images/pinpont-enable-filters.png)
+
+2.10\. Now you can explore the events recorded.
 
 ![Pinpoint events](images/amplify-pinpoint-events.png)

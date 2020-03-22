@@ -36,9 +36,11 @@ Please edit the file in your editor: /home/ec2-user/environment/react-my-todos/a
 
 ? **Press enter to continue**
 
+1.2\. Optionally, you can open the **index.js** file.
+
 ![Amplify add storage](images/amplify-add-storage.png)
 
-1.2\. Push to create these changes in the cloud.
+1.3\. Push to create these changes in the cloud.
 
 ``` bash
 amplify push
@@ -624,4 +626,12 @@ function ItemTodo(props) {
 export default ItemTodo;
 ```
 
-2.5\. Go back to your application running, now you can create a todo and retrive the data from the DynamoDB Table.
+2.5\. **Adding**, **committing**, and **pushing** files to the CodeCommit repository.
+
+``` bash
+git add .
+git commit -m "Storage added"
+git push origin master
+```
+
+2.6\. Go back to your application running, now you can create a todo and retrive the data from the DynamoDB Table.

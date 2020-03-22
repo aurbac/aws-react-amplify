@@ -268,4 +268,12 @@ function ItemTodo(props) {
 export default ItemTodo;
 ```
 
-2.2\. Go back to your application running, now you translate and speech todos.
+2.2\. **Adding**, **committing**, and **pushing** files to the CodeCommit repository.
+
+``` bash
+git add .
+git commit -m "Predictions added"
+git push origin master
+```
+
+2.3\. Go back to your application running, now you translate and speech todos.
