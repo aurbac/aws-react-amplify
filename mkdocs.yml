@@ -15,11 +15,13 @@ google_analytics: ['UA-55517703-9', 'aws-react-amplify.ws.kabits.com']
 copyright: '&copy; 2020 - AURBAC '
 
 extra:
-  social:
-    - type: 'home'
-      link: 'http://aws-react-amplify.ws.kabits.com'
-    - type: 'twitter'
-      link: 'https://twitter.com/aurbac'
+  social: 
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/aurbac
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/aurbac
+    - icon: fontawesome/solid/home
+      link: http://aws-msg-app.ws.kabits.com
 
 nav:
     - Home: index.md
@@ -32,12 +34,13 @@ nav:
     - Adding Hosting: adding-hosting.md
 
 theme:
-  name: 'material'
+  name: material
   palette:
-    primary: 'amber'
-    accent: 'amber'
-  logo:
-    icon: 'cloud_done'
+    primary: amber
+    accent: amber
+  icon:
+    logo: fontawesome/brands/aws
+    repo: fontawesome/brands/git-alt
 markdown_extensions:
   - codehilite:
       linenums: true
