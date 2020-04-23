@@ -14,7 +14,7 @@ npm install -g @aws-amplify/cli
 
 ``` bash
 cd ~/environment/react-my-todos/
-npm install --save aws-amplify aws-amplify-react
+npm install --save aws-amplify@2.2.4 aws-amplify-react@3.1.5
 ```
 
 1.3\. Initialize the Amplify project and use the following values.
